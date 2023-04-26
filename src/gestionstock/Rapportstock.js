@@ -1,0 +1,57 @@
+import React  from "react";
+import "./Rapportstock.css";
+
+function Rapport() {
+  return (
+    <div className="registration-form">
+    <form>
+    <div className="form-text">
+        <h1>Rapport</h1>
+    </div>
+    <div className="form-group">
+        <input type="text" className="form-control item" id="Nomdeproduit" placeholder="Nom de produit"/>
+    </div>
+    <div className="form-group">
+        <input type="text" className="form-control item" id="referencedeproduit" placeholder="reference de produit" />
+    </div>
+    <div className="form-group">
+        <input type="text" className="form-control item" id="iddeproduit" placeholder="id de produit " />
+    </div>
+    <div className="form-group">
+        <input type="text" className="form-control item" id="quantitealerte" placeholder="quantite d'alerte"/>
+    </div>
+    <div className="form-group">
+        <input type="text" className="form-control item" id="idfournisseur" placeholder="id fournisseur"/>
+    </div>
+
+    <div className="form-group">
+    <textarea
+              id="messagefournisseur"
+              className="form-control item"
+              placeholder="message de fournisseur "
+              style={{  height: "135px" }}              
+            />
+    </div>
+
+    <div className="form-group">
+    <textarea
+              id="description"
+              className="form-control item"
+              placeholder="description "
+              style={{  height: "135px" }}
+              
+            />
+    </div>
+
+    <div className="form-group">
+    <button type="reset" className="btn btn-block create-account">Annuler</button>
+        <button type="submit" className="btn btn-block create-account">envoyer</button>
+        
+    </div>
+</form>
+</div>
+
+  );
+}
+
+export default Rapport;
