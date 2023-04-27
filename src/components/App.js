@@ -12,13 +12,30 @@ import Authentificationstock from "../gestionstock/Authentificationstock";
 import Authentificationplante from "../gestionplante/Authentificationplante";
 import Rapportplante from "../gestionplante/Rapportplante";
 import Rapportstock from "../gestionstock/Rapportstock";
-// import Dashboardapp from "./dashboardplante/Dashboardapp";
-//import DashboardStockapp from "./Dashboardstock/DashboardStockapp";
+import DashboardStockapp from "./Dashboardstock/DashboardStockapp";
+import Dashboardapp from "./dashboardplante/Dashboardapp";
+
+/*
+import RapportStock from "./Dashboardstock/Pages/RapportStock";
+import SupprimerStock  from "./Dashboardstock/Pages/SupprimerStock";
+import AjouterStock from "./Dashboardstock/Pages/AjouterStock";
+import CustomersStock      from "./Dashboardstock/Pages/CustomersStock";
+import MiseajourStock     from "./Dashboardstock/Pages/MiseajourStock";
+import DashboardStockapp from "./Dashboardstock/DashboardStockapp";
+<Route path="/DashboardStockapp"         element={<DashboardStockapp/>}/> 
+<Route path="/DashboardStock"            element={<DashboardStockapp/>}/> 
+<Route path="/RapportStock"              element={<RapportStock />} />
+<Route path="/CustomersStock"            element={<CustomersStock />} />
+<Route path="/AjouterStock"              element={<AjouterStock />} />
+<Route path="/SupprimerStock"            element={<SupprimerStock />} />
+<Route path="/MiseajourStock"            element={<MiseajourStock />} />
+</Routes>
+*/
  /*
           <Route path="/DashboardStockapp"         element={<DashboardStockapp/>}/> 
          <Route path="/Dashboardapp"              element={<Dashboardapp/>}/>
 <Route path="/Dashboardapp"              element={<Dashboardapp/>}/>
- <Route path="/DashboardStockapp"         element={<DashboardStockapp/>}/>
+
 */
 
 
@@ -37,8 +54,9 @@ function Test() {
          <Route path="/Rapportplante"             element={<Rapportplante/>}/> 
          <Route path="/Rapportstock"              element={<Rapportstock/>}/> 
          <Route path="/sign-up"                   element={<Contact/>}/> 
-
-       </Routes>
+         <Route path="/DashboardStockapp/*"         element={<DashboardStockapp/>}/>
+         <Route path="/Dashboardapp/*"              element={<Dashboardapp/>}/>
+         </Routes>
   </div>
   );
 }

@@ -1,4 +1,4 @@
-import React, { useEffect, usestate } from "react";
+import React, { useEffect, useState } from "react";
 import { Menu } from "antd";
 import {
   AppstoreOutlined,
@@ -9,29 +9,26 @@ import {
   DeleteFilled,
   DiffOutlined,
 } from "@ant-design/icons";
-import { useNavigate } from "react-router-dom";
-
+import { useNavigate, useLocation } from "react-router-dom";
 
 function Sidemenu() {
- /* const  location=useLocation()
-  const [selectedKeys,setSelectedKeys] = usestate('/')
+  const location = useLocation();
+  const [selectedKeys, setSelectedKeys] = useState("/");
 
-  useEffect(() =>{
-    const pathName = location.pathname
-    setSelectedKeys(pathName)},
-    [location.pathname])
-    
-  */
+  useEffect(() => {
+    const pathName = location.pathname;
+    setSelectedKeys(pathName);
+  }, [location.pathname]);
+
   const navigate = useNavigate();
 
   return (
-    <div className="Sidemenu">
+    <div className="Sidemenuu">
       <Menu
         onClick={(item) => {
-          //item.key
           navigate(item.key);
         }}
-      //  selectedKeys={selectedKeys}
+        defaultSelectedKeys={[selectedKeys]}
         items={[
           {
             label: "Dashbaord",

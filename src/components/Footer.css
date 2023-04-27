@@ -1,10 +1,10 @@
-.Footer{
+.Foot{
   padding: 4rem 6rem;
   background: #000;
   color: #fff;
 }
 
-.top{
+.tp{
   display: flex;
   align-items: center;
   text-align: start;
@@ -12,17 +12,17 @@
   flex-wrap: wrap;
 }
 
-.top i{
+.tp i{
    color:#fff;
    font-size: 2rem;
    margin-left:1rem; 
 }
 
-.top i:hover{
+.tp i:hover{
   color: #01959a;
 }
 
-.bottom{
+.bottm{
     padding-top: 2rem;
     text-align: start;
     display: flex;
@@ -30,7 +30,7 @@
     flex-wrap: wrap;
 }
 
-.bottom div{
+.bottm div{
   display: flex;
   flex-direction: column ;
 }
@@ -40,7 +40,7 @@
     padding: 1rem 0 0.8rem 0;
 }
 
-.bottom a{
+.bottm a{
    text-decoration: none;
    color: #fafafa;
    padding-bottom: 0.4rem;
@@ -59,15 +59,15 @@
 
 
 @media  screen and (max-width:850px){
-    .footer{
+    .foot{
         padding: 4rem 2rem;
     }
 
-    .footer i{
+    .foot i{
       margin: 1rem 1rem 0 0;
     }s
 
-    .bottom div{
+    .bottm div{
         width: 50%;
     }
     

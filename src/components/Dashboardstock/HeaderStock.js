@@ -30,12 +30,12 @@ function HeaderStock(){
       
       
     return(
-        <div className="Header">
+        <div className="headerr">
                   <Image
         width={127} 
         src="./image/1.jpg" alt="farm"/>
      
-      <Typography.Title>Stock plante Dashboard</Typography.Title>
+      <Typography.Title  level={2}>Stock plante Dashboard</Typography.Title>
       <Space>
              <Badge count={comments.length} dot>
              <MailOutlined    style={{ fontSize: 22 }} onClick={() => 

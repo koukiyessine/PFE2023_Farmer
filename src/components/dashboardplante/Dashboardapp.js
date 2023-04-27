@@ -8,9 +8,9 @@ import Sidemenu from "../dashboardplante/Sidemenu";
 
 function Dashboardapp(){
 return(
-<div className="App">
+<div className="Appp">
 <Header/>
-<Space className="SideMenuAndPageContent">
+<Space className="SideMenuAndPageContentt">
     <Sidemenu/>
     <Pagecontent/>
 </Space>

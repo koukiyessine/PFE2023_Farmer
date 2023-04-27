@@ -1,20 +1,20 @@
-.App{
+.appp{
     display: flex;
     flex-direction: column;
     width: 100vw;
     height: 100vh;
 }
 
-.Header{
-    height: 50px;
+.headerr{
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1px 45px 14px 8px ;
+    padding: 9px 47px 14px 18px ;
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 
-.SideMenuAndPageContent{
+.sidemenuandpagecontent{
     display: flex;
     flex: 1;
     justify-content: flex-start;
@@ -24,7 +24,7 @@
 }
 
 
-.Footer{
+.footerr{
 height: 50px;
 display: flex;
 justify-content: space-evenly;
@@ -33,11 +33,11 @@ border-top: 1px solid rgba(0, 0, 0, 0.15);
 
 }
 
-.Sidemenu{
+.sidemenuu{
     height: 100%;
     padding-top:5px;
 }
 
-.Pagecontent{
+.pagecontentt{
     padding-left: 12px;
 }

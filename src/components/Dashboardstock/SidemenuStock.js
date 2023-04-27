@@ -22,7 +22,7 @@ function SidemenuStock() {
   const navigate = useNavigate();
 
   return (
-    <div className="Sidemenu">
+    <div className="Sidemenuu">
       <Menu
         onClick={(item) => {
           navigate(item.key);

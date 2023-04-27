@@ -1,12 +1,12 @@
-.registration {
+.registre {
   padding: 30px;
-  background-image: url("");
+  
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.registration form {
+.registre form {
   background-color: rgba(168, 197, 181, 0.389);
   max-width: 800px;
   margin-left: 13rem;
@@ -20,7 +20,7 @@
   box-shadow: 90px 90px 90px 90px rgba(0.11, 0.17, 0.11,0.11);
 }
 
-.registration .form-text h1 {
+.registre .textt h1 {
   text-align: center;
   background-color: none;
   color: #000000;
@@ -28,7 +28,7 @@
   margin-bottom: 50px;
 }
 
-.registration .item {
+.registre .paper {
   border-radius: 20px;
   margin-bottom: 25px;
   padding: 10px 50px;
@@ -36,7 +36,7 @@
   width: 30rem;
 }
 
-.registration .create-account {
+.registre .createcompte{
   border-radius: 75px;
   padding: 10px 10px;
   font-size: 16px;
@@ -51,22 +51,22 @@
 }
 
 
-.registration .create-account:hover {
+.registre .createcompte:hover {
   background-color: #008cba;
   color: rgb(181, 22, 22);
 }
 
 @media screen and (max-width: 800px) {
-  .registration form {
+  .registre form {
     padding: 50px;
   }
 
-  .registration .item {
+  .registre .paper {
     width: 100%;
     padding: 10px;
   }
 
-  .registration .create-account {
+  .registre .createcompte {
     margin: 50px auto;
   }
 }

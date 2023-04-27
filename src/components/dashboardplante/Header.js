@@ -30,7 +30,7 @@ function Header(){
       
       
     return(
-        <div className="Header">
+        <div className="Headerr">
                   <Image
         width={127} 
         src="./image/1.jpg" alt="farm"/>

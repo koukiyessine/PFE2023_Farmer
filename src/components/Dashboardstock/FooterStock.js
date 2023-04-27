@@ -4,7 +4,7 @@ import { Typography } from "antd";
 function FooterStock(){
   
     return(
-        <div className="Footer">
+        <div className="footerr">
       <Typography.Link href="tel:+42498338">+42498338</Typography.Link>
       <Typography.Link href="https://www.google.com" target={"_blank"}>
         Privacy Policy

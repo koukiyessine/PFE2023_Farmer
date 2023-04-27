@@ -6,7 +6,7 @@ import AjouterStock from "./Pages/AjouterStock";
 import SupprimerStock from "./Pages/SupprimerStock";
 import MiseajourStock from "./Pages/MiseajourStock";
 import { Routes, Route } from 'react-router-dom';
-import DashboardStockapp from "./DashboardStockapp";
+
 function RoutesStock(){
   return(
     <Routes>
@@ -16,7 +16,6 @@ function RoutesStock(){
       <Route path="/AjouterStock" element={<AjouterStock />} />
       <Route path="/SupprimerStock" element={<SupprimerStock />} />
       <Route path="/MiseajourStock" element={<MiseajourStock />} />
-      <Route path="/DashboardStockapp"         element={<DashboardStockapp/>}/>
     </Routes>  
   );
 }

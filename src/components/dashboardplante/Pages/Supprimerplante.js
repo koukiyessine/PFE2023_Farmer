@@ -4,23 +4,23 @@ import "./Ajouterplante.css";
 
 function Supprimerplante() {
   return (
-    <div className="registration">
+    <div className="registre">
     <form>
 
-    <div className="form-text">
+    <div className="textt">
         <h1>Supprimer plante</h1>
     </div>
 
     <div className="form-group">
-        <input type="text" className="form-control item" id="Nomdeplante" placeholder="Nom de produit"/>
+        <input type="text" className="form-control paper" id="Nomdeplante" placeholder="Nom de produit"/>
     </div>
 
 
 
 
     <div className="form-group">
-         <button type="submit" className="btn btn-block create-account">Delete</button>
-         <button type="reset" className="btn btn-block create-account">Annuler</button>
+         <button type="submit" className="btn btn-block createcompte">Delete</button>
+         <button type="reset" className="btn btn-block createcompte">Annuler</button>
        
          
     </div>

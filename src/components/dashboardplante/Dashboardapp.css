@@ -1,11 +1,11 @@
-.App{
+.Appp{
     display: flex;
     flex-direction: column;
     width: 100vw;
     height: 100vh;
 }
 
-.Header{
+.Headerr{
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -14,7 +14,7 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 
-.SideMenuAndPageContent{
+.SideMenuAndPageContentt{
     display: flex;
     flex: 1;
     justify-content: flex-start;
@@ -24,7 +24,7 @@
 }
 
 
-.Footer{
+.Footerr{
 height: 50px;
 display: flex;
 justify-content: space-evenly;
@@ -33,11 +33,11 @@ border-top: 1px solid rgba(0, 0, 0, 0.15);
 
 }
 
-.Sidemenu{
+.Sidemenuu{
     height: 100%;
     padding-top:5px;
 }
 
-.Pagecontent{
+.Pagecontentt{
     padding-left: 12px;
 }

@@ -4,8 +4,8 @@ import "./Footer.css";
 function Footer(){
 
  return(
-   <div className="Footer">
-      <div className="top">
+   <div className="Foot">
+      <div className="tp">
         <div>
             <h1>Farmer</h1>
             <p>"Farmers are the backbone of our society"</p>
@@ -25,7 +25,7 @@ function Footer(){
             </a>
         </div>
       </div>
-      <div className="bottom">
+      <div className="bottm">
          <div>
             <h4>Project</h4>
             <a href="/">changelog</a>

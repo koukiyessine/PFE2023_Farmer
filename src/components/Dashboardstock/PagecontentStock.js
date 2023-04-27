@@ -3,7 +3,7 @@ import RoutesStock from "./RoutesStock";
 
 function PagecontentStock(){
     return(
-    <div className="Pagecontent">
+    <div className="pagecontentt">
         <RoutesStock/>
     </div>
     );

@@ -4,45 +4,45 @@ import "./Ajouterplante.css";
 
 function Miseajourplante() {
   return (
-    <div className="registration">
+    <div className="registre">
     <form>
 
-    <div className="form-text">
+    <div className="textt">
         <h1> Update plante</h1>
     </div>
 
     <div className="form-group">
-        <input type="text" className="form-control item" id="Nomdeplante" placeholder="Nom de plante"/>
+        <input type="text" className="form-control paper" id="Nomdeplante" placeholder="Nom de plante"/>
     </div>
 
     <div className="form-group">
-        <input type="text" className="form-control item" id="typedesol" placeholder="type de sol" />
+        <input type="text" className="form-control paper" id="typedesol" placeholder="type de sol" />
     </div>
 
     <div className="form-group">
-        <input type="Date" className="form-control item" id="datedeplante" placeholder="date de plante " />
+        <input type="Date" className="form-control paper" id="datedeplante" placeholder="date de plante " />
     </div>
 
     <div className="form-group">
-        <input type="Date" className="form-control item" id="niveaueau" placeholder="date de recette"/>
+        <input type="Date" className="form-control paper" id="niveaueau" placeholder="date de recette"/>
     </div>
 
     <div className="form-group">
-        <input type="text" className="form-control item" id="etatdesante" placeholder="etat de sante"/>
+        <input type="text" className="form-control paper" id="etatdesante" placeholder="etat de sante"/>
     </div>
 
     <div className="form-group">
-        <input type="text" className="form-control item" id="vitamine" placeholder="vitamine"/>
+        <input type="text" className="form-control paper" id="vitamine" placeholder="vitamine"/>
     </div>
 
     <div className="form-group">
-        <input type="text" className="form-control item" id="champ" placeholder="champ:nom/taille/ph"/>
+        <input type="text" className="form-control paper" id="champ" placeholder="champ:nom/taille/ph"/>
     </div>
 
 
     <div className="form-group">
-         <button type="submit" className="btn btn-block create-account">Update</button>
-         <button type="reset" className="btn btn-block create-account">Annuler</button>
+         <button type="submit" className="btn btn-block createcompte">Update</button>
+         <button type="reset" className="btn btn-block createcompte">Annuler</button>
        
          
     </div>

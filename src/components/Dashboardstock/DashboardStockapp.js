@@ -8,9 +8,9 @@ import SidemenuStock from "./SidemenuStock";
 
 function DashboardStockapp(){
 return(
-<div className="App">
+<div className="appp">
 <HeaderStock/>
-<Space className="SideMenuAndPageContent">
+<Space className="sidemenuandpagecontent">
     <SidemenuStock/>
     <PagecontentStock/>
 </Space>

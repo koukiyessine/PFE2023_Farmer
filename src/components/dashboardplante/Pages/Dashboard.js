@@ -170,7 +170,7 @@ const Customers = () => {
     const [orders, setOrders] = useState([]);
   
     useEffect(() => {
-      fetch('/api/orders')
+     fetch('/api/orders')
         .then(res => res.json())
         .then(data => setOrders(data.splice(0, 3)))
         .catch(err => console.log(err));
@@ -212,7 +212,7 @@ const Customers = () => {
     const [data, setData] = useState([]);
   
     useEffect(() => {
-      axios.get("https://example.com/api/plants").then((response) => {
+     axios.get("https://example.com/api/plants").then((response) => {
         setData(response.data);
       });
     }, []);

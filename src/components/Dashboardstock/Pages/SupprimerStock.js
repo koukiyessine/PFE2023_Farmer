@@ -8,7 +8,7 @@ function Supprimerplante() {
     <form>
 
     <div className="form-text">
-        <h1>Supprimer plante</h1>
+        <h1>Supprimer Stock</h1>
     </div>
 
     <div className="form-group">
