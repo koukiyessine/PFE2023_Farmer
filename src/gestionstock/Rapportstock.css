@@ -1,4 +1,4 @@
-.registration-form {
+.registrationn-formm {
   padding: 60px;
   background-image: url("pexels-vincenzo-malagoli-1211772.jpg");
   background-size: cover;
@@ -6,7 +6,7 @@
   background-position: center;
 }
 
-.registration-form form {
+.registrationn-formm form {
   background-color: rgba(136, 109, 109, 0.389);
   max-width: 800px;
   margin: auto;
@@ -18,7 +18,7 @@
   box-shadow: 50px 50px 50px rgba(0, 0, 0, 0.075);
 }
 
-.registration-form .form-text h1 {
+.registrationn-formm .formm-ttext h1 {
   text-align: center;
   background-color: none;
   color: #5791ff;
@@ -26,7 +26,7 @@
   margin-bottom: 50px;
 }
 
-.registration-form .item {
+.registrationn-formm .itemm {
   border-radius: 20px;
   margin-bottom: 25px;
   padding: 10px 50px;
@@ -34,7 +34,7 @@
   width: 30rem;
 }
 
-.registration-form .create-account {
+.registrationn-formm .createaccountt {
   border-radius: 75px;
   padding: 10px 10px;
   font-size: 16px;
@@ -47,22 +47,22 @@
   
 }
 
-.registration-form .create-account:hover {
+.registrationn-formm .createaccountt:hover {
   background-color: #008cba;
   color: rgb(181, 22, 22);
 }
 
 @media screen and (max-width: 800px) {
-  .registration-form form {
+  .registrationn-formm form {
     padding: 50px;
   }
 
-  .registration-form .item {
+  .registrationn-formm .itemm {
     width: 100%;
     padding: 10px;
   }
 
-  .registration-form .create-account {
+  .registrationn-formm .createaccountt {
     margin: 50px auto;
   }
 }

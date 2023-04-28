@@ -1,4 +1,4 @@
-.registration {
+.rregistrationn {
   padding: 60px;
   background-image: url("pexels-pixabay-325944.jpg");
   background-size: cover;
@@ -6,7 +6,7 @@
   background-position: center;
 }
 
-.registration form {
+.rregistrationn form {
   background-color: rgba(136, 109, 109, 0.389);
   max-width: 800px;
   margin: auto;
@@ -18,7 +18,7 @@
   box-shadow: 50px 50px 50px rgba(0, 0, 0, 0.075);
 }
 
-.registration .form-text h1 {
+.rregistrationn .formmtext h1 {
   text-align: center;
   background-color: none;
   color: #5791ff;
@@ -26,7 +26,7 @@
   margin-bottom: 50px;
 }
 
-.registration .item {
+.rregistrationn .Itemm {
   border-radius: 20px;
   margin-bottom: 25px;
   padding: 10px 50px;
@@ -34,7 +34,7 @@
   width: 30rem;
 }
 
-.registration .create-account {
+.rregistrationn .createe-buttonn {
   border-radius: 75px;
   padding: 10px 10px;
   font-size: 16px;
@@ -48,22 +48,23 @@
 }
 
 
-.registration .create-account:hover {
+.rregistrationn .createe-buttonn:hover {
   background-color: #008cba;
   color: rgb(181, 22, 22);
 }
 
 @media screen and (max-width: 800px) {
-  .registration form {
+
+  .rregistrationn form {
     padding: 50px;
   }
 
-  .registration .item {
+  .rregistrationn .Itemm {
     width: 100%;
     padding: 10px;
   }
 
-  .registration .create-account {
+  .rregistrationn .createe-buttonn {
     margin: 50px auto;
   }
 }

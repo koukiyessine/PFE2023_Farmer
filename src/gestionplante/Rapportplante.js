@@ -4,36 +4,36 @@ import "./Rapportplante.css";
 
 function Rapport() {
   return (
-    <div className="registration">
+    <div className="rregistrationn">
     <form>
-    <div className="form-text">
+    <div className="formmtext">
         <h1>Rapport</h1>
     </div>
     <div className="form-group">
-        <input type="text" className="form-control item" id="Nomdeplante" placeholder="Nom de plante"/>
+        <input type="text" className="form-control Itemm" id="Nomdeplante" placeholder="Nom de plante"/>
     </div>
     <div className="form-group">
-        <input type="text" className="form-control item" id="etatdesante" placeholder="etat de sante" />
+        <input type="text" className="form-control Itemm" id="etatdesante" placeholder="etat de sante" />
     </div>
     <div className="form-group">
-        <input type="text" className="form-control item" id="typedesol" placeholder="type de sol " />
+        <input type="text" className="form-control Itemm" id="typedesol" placeholder="type de sol " />
     </div>
     <div className="form-group">
-        <input type="text" className="form-control item" id="niveaueau" placeholder="niveau d'eau"/>
+        <input type="text" className="form-control Itemm" id="niveaueau" placeholder="niveau d'eau"/>
     </div>
     <div className="form-group">
-        <input type="text" className="form-control item" id="humidite" placeholder="humidite °"/>
+        <input type="text" className="form-control Itemm" id="humidite" placeholder="humidite °"/>
     </div>
     <div className="form-group">
-        <input type="date" className="form-control item" id="date" placeholder="date"/>
+        <input type="date" className="form-control Itemm" id="date" placeholder="date"/>
     </div>
     <div className="form-group">
-        <input type="text" className="form-control item" id="temperature" placeholder="temperature °"/>
+        <input type="text" className="form-control Itemm" id="temperature" placeholder="temperature °"/>
     </div>
     <div className="form-group">
     <textarea
               id="description"
-              className="form-control item"
+              className="form-control Itemm"
               placeholder="description "
               style={{  height: "135px" }}
               
@@ -41,8 +41,8 @@ function Rapport() {
     </div>
 
     <div className="form-group">
-         <button type="reset" className="btn btn-block create-account">Annuler</button>
-       <button type="submit" className="btn btn-block create-account">envoyer</button>
+         <button type="reset" className="btn btn-block createe-buttonn">Annuler</button>
+       <button type="submit" className="btn btn-block createe-buttonn">envoyer</button>
          
     </div>
 </form>

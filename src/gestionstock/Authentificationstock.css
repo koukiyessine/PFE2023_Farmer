@@ -10,7 +10,7 @@ body {
   height: 110vh;
 }
 
-.left {
+.gauchee {
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
@@ -23,7 +23,7 @@ body {
   background-color: #56421e;
 }
 
-.right {
+.droitee {
   flex: 1;
   background-color: black;
   transition: 1s;
@@ -36,19 +36,19 @@ body {
 
 
 
-.header > h2 {
+.entêtee > h2 {
   margin: 0;
   color: #010101;
 }
 
-.header > h4 {
+.entêtee > h4 {
   margin-top: 10px;
   font-weight: normal;
   font-size: 15px;
   color: rgba(0,0,0,.4);
 }
 
-.form {
+.formulairee {
   max-width: 80%;
   display: flex;
   flex-direction: column;
@@ -56,11 +56,11 @@ body {
   
 }
 
-.form > p {
+.formulairee > p {
   text-align: right;
 }
 
-.form > p > a {
+.formulairee > p > a {
   color: #000;
   font-size: 14px;
 }
@@ -81,7 +81,7 @@ body {
   border-color: #0f7ef1;
 }
  
-.form > button {
+.formulairee > button {
   padding: 12px 10px;
   border: 0;
   background: linear-gradient(to right, hwb(300 4% 96%) 0%,#000000 100%); 
